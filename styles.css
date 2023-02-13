@@ -101,10 +101,11 @@ ul{
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    width: 150px;
 }
 .thumbnail{
-    max-height: 150px;
-    max-width: 150px;
+    height: 150px;
+    width: 150px;
     border: #3882f6 3px solid;
     border-radius: 10px;
 }
@@ -112,4 +113,49 @@ ul{
 .subtext{
     font-size: 18px;
     color: #1f2937;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+.quote-container{
+    padding: 100px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote-source{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.contactus-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px 100px;
 }
